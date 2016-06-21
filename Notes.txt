@@ -1,0 +1,6 @@
+FINAL FIX FOR PLUGIN INSTALL
+------------
+https://github.com/nodejs/node-gyp#installation (Issue with VC++)
+npm config set msvs_version 2015
+npm config set python python2.7
+heroku plugins:install heroku-kafka
